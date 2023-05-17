@@ -45,7 +45,45 @@ Gracias Google Speech Recognition este programa se puede correr en computadoras 
 * Puede que la efectividad del reconocimiento de las palabras no sea del 100% ya que depende factores tales como: calidad del micrófono, el alcance del mismo, el ruido ambiente, como así también de la pronunciación del emisor, etc. 
 * Así mismo la primera vez que se ejecute puede que tarde un poco más de tiempo en reconocerla.
 
+--------------------------------------------------------------------------------
 
+## información técnica:
+
+Este programa está en fase beta y fue realizado íntegramente en el lenguaje de programación python3
+
+## Librerías necesarias
+        aiohttp==3.8.4
+        aiosignal==1.3.1
+        async-timeout==4.0.2
+        attrs==23.1.0
+        certifi==2023.5.7
+        cffi==1.15.1
+        charset-normalizer==3.1.0
+        click==8.1.3
+        cryptography==40.0.2
+        frozenlist==1.3.3
+        gTTS==2.3.2
+        idna==3.4
+        multidict==6.0.4
+        openai==0.27.6
+        PyAudio==0.2.13
+        pycparser==2.21
+        pygame==2.4.0
+        pyttsx3==2.90
+        requests==2.30.0
+        SpeechRecognition==3.10.0
+        tqdm==4.65.0
+        urllib3==2.0.2
+        yarl==1.9.2
+# Instalación:
+1. clonar el repositorio.
+
+        git clone https://github.com/rocky-roll/speak_to_the_chatGPT
+        
+2. Instalar las librerias necesarias para ejecutar el programa.
+
+        cd speak_to_the_chatGPT
+        python -m pip freeze install -r requirements.txt
 --------------------------------------------------------------------------------
 
 # ¿cómo obtener la API Key para chatGPT?
@@ -59,17 +97,12 @@ Gracias Google Speech Recognition este programa se puede correr en computadoras 
 
 1. ejecute el archivo assistant.py.
 
-        cd speak_to_the_chatGPT
         python assistant.py
 1. Una vez abierto el programa ir a la barra de menú y hacer clic "Archivo/chatGPT key"
 2. En la caja de texto pegar (CTRL + v) la API key previamente creada en openai y hacer clic en el botón "Enviar"
 3. Luego se abrirá una caja de mensaje informándonos que si se desea aplicar los cambios habrá que cerrar la aplicación y volver a abrirla
 
 Al reiniciar la aplicación ya se podrá conectar con chatGPT
-
-## información técnica:
-
-Este programa está en fase beta y fue realizado íntegramente en el lenguaje de programación python3
 
 ## garantía:
 
