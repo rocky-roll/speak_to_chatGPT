@@ -14,7 +14,7 @@ Mientras no se pronuncien las palabras "Hola" o "chatGPT" el programa no se ejec
     chatGPT -- "...."
 
 
-En esta etapa beta, el usuario no podrá mantener un hilo conversacional ni modificar las configuraciones que se le han hecho a chatGPT modelo gpt-3.5-turbo para que de respuestas con humor, irónicas y sarcásticas de forma tal que no parezca que un HAL9000 cualquiera.
+En esta etapa beta, el usuario no podrá mantener un hilo conversacional ni modificar las configuraciones que se le han hecho a chatGPT modelo gpt-3.5-turbo, por lo tanto esta AI dará respuestas con humor, algo irónicas y sarcásticas de forma tal que no parezca que un HAL9000 cualquiera.
 
 
 --------------------------------------------------------------------------------
