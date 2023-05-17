@@ -12,25 +12,14 @@ Mientras no se pronuncien las palabras "Hola" o "chatGPT" el programa no se ejec
     chatGPT -- "Te escucho"
     usuario -- "¿de que color era el caballo blanco del general San martín?
     chatGPT -- "...."
-    usuario -- "Hola"
-    chatGPT -- "Te escucho"
-    usuario -- "¿Qué simboliza su sable?"
-    chatGPT -- "...."
 
 
-Sí se quiere iniciar un nuevo tema de conversación basta con pronunciar la palabra "Nuevo"
-
-    usuario -- "Nuevo"
-    chatGPT -- "Nueva conversación creada. Te escucho "
-    usuario -- "¿existen los imanes unipolares?"
-    chatGPT -- "...."
-
-En esta etapa beta, el usuario no podrá modificar las configuraciones que se le han hecho a chatGPT. Se lo configuró para que de respuestas con humor, irónicas y sarcásticas de forma tal que no parezca que un HAL9000 cualquiera.
+En esta etapa beta, el usuario no podrá mantener un hilo conversacional ni modificar las configuraciones que se le han hecho a chatGPT modelo gpt-3.5-turbo para que de respuestas con humor, irónicas y sarcásticas de forma tal que no parezca que un HAL9000 cualquiera.
 
 
 --------------------------------------------------------------------------------
 
-# La idea es que una persona con  conocimientos básicos de informática pueda mantener una conversación propia con la AI de la que todos hablan y que sea de la forma más sencilla posible. 
+# La idea es que una persona con conocimientos básicos de informática pueda mantener una conversación en forma oral con chatGPT y que sea de la forma más sencilla posible. 
 
 
 ## requisitos:
@@ -67,13 +56,13 @@ Gracias Google Speech Recognition este programa se puede correr en computadoras 
 --------------------------------------------------------------------------------
 
 # Agregar la clave generada al programa 
-#### Windows 10
-* Descomprima el archivo asistenteWin10.zip y ejecute el archivo asistente.exe
-#### Gnu/Linux 64bits
-* Descomprima el archivo asistenteLinux.zip y ejecute el archivo binario asistente
-#### Lo mismo para ambos SO.
+
+1. ejecute el archivo assistant.py.
+
+        cd speak_to_the_chatGPT
+        python assistant.py
 1. Una vez abierto el programa ir a la barra de menú y hacer clic "Archivo/chatGPT key"
-2. En la caja de texto pegar la API key previamente creada en openai y hacer clic en el botón "Enviar"
+2. En la caja de texto pegar (CTRL + v) la API key previamente creada en openai y hacer clic en el botón "Enviar"
 3. Luego se abrirá una caja de mensaje informándonos que si se desea aplicar los cambios habrá que cerrar la aplicación y volver a abrirla
 
 Al reiniciar la aplicación ya se podrá conectar con chatGPT
