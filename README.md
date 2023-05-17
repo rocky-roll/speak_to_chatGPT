@@ -19,7 +19,7 @@ En esta etapa beta, el usuario no podrá mantener un hilo conversacional ni modi
 
 --------------------------------------------------------------------------------
 
-# La idea es que una persona con conocimientos básicos de informática pueda mantener una conversación en forma oral con chatGPT y que sea de la forma más sencilla posible. 
+# La idea es que una persona con conocimientos básicos de informática pueda mantener una conversación oral con chatGPT y que sea de la forma más sencilla posible. 
 
 
 ## requisitos:
