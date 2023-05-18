@@ -19,7 +19,7 @@ En esta etapa beta, el usuario no podrá mantener un hilo conversacional ni modi
 
 --------------------------------------------------------------------------------
 
-# La idea de esta aplicacíon de PC es para que una persona con conocimientos básicos de informática pueda mantener una conversación oral con chatGPT y que sea de la forma más sencilla posible. 
+# Esta aplicacíon de PC está pensada para que personas con conocimientos básicos de informática puedan mantener una conversación oral con chatGPT y que sea de la forma más sencilla posible. 
 
 
 ## requisitos:
@@ -83,7 +83,7 @@ Este programa está en fase beta y fue realizado íntegramente en el lenguaje de
 2. Instalar las librerias necesarias para ejecutar el programa.
 
         cd speak_to_the_chatGPT
-        python -m pip freeze install -r requirements.txt
+        python -m pip install -r requirements.txt
 --------------------------------------------------------------------------------
 
 # ¿cómo obtener la API Key para chatGPT?
@@ -98,9 +98,17 @@ Este programa está en fase beta y fue realizado íntegramente en el lenguaje de
 1. ejecute el archivo assistant.py.
 
         python assistant.py
-1. Una vez abierto el programa ir a la barra de menú y hacer clic "Archivo/chatGPT key"
+1. Una vez abierto el programa ir a la barra de menú y hacer clic "Archivo/chatGPT api key"
+
+![chatGPT api key](https://i.postimg.cc/PxgzSF4G/2.png)
+
 2. En la caja de texto pegar (CTRL + v) la API key previamente creada en openai y hacer clic en el botón "Enviar"
+
+![chatGPT api key](https://i.postimg.cc/59m67Rpw/1.png)
+
 3. Luego se abrirá una caja de mensaje informándonos que si se desea aplicar los cambios habrá que cerrar la aplicación y volver a abrirla
+
+![chatGPT api key](https://i.postimg.cc/mkdZbK6J/4.png)
 
 Al reiniciar la aplicación ya se podrá conectar con chatGPT
 
