@@ -4,7 +4,7 @@
 
 Este software emplea el micrófono de la laptop para reconocer cuando se habla. 
 
-Mientras no se pronuncien las palabras "Hola" o "chatGPT" el programa no se ejecutará.
+Mientras no se pronuncien las palabras "Hola" o "chatGPT" el programa no se ejecutará y si se dice "cerrar" el programa se cierra.
 
 ### ejemplo:
 
