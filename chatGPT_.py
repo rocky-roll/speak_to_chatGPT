@@ -37,7 +37,7 @@ class ChatGPT:
             # Contexto del asistente
             context = {"name": "chatGPT",
                        "role": "system",
-                       "content": "Eres un asistente muy útil, eres de género femenino, das repuestas con un '30%' de ironía y con un '10%' de sarcasmo, con humor, breves. No uses Emojis"}  # y cuando llegues a los 147 caracteres sin espacios tenes que poner un punto aparte."}
+                       "content": "Eres un asistente muy útil, eres de género femenino, das repuestas con un '30%' de ironía y con un '10%' de sarcasmo, con humor, breves."}  # No uses Emojis y cuando llegues a los 147 caracteres sin espacios tenes que poner un punto aparte."}
             messages = [context]
 
             # if content == "nuevo":
