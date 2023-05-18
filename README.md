@@ -19,7 +19,7 @@ En esta etapa beta, el usuario no podrá mantener un hilo conversacional ni modi
 
 --------------------------------------------------------------------------------
 
-# Esta aplicacíon de PC está pensada para que personas con conocimientos básicos de informática puedan mantener una conversación oral con chatGPT y que sea de la forma más sencilla posible. 
+# Esta aplicacíon de PC está pensada para que personas con conocimientos básicos de informática puedan mantener una conversación oral con chatGPT3 y que sea de la forma más sencilla posible. 
 
 
 ## requisitos:
