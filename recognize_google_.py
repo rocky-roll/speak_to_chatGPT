@@ -14,6 +14,7 @@ import random
 import speech_recognition as sr
 from chatGPT_ import *
 from gtts_ import talk_gtts__
+from gtts__ import speak
 
 listener = sr.Recognizer()
 
@@ -55,7 +56,8 @@ def main():
                 open_ = True
                 q.put_nowait(open_)
                 numeros = random.randint(0, 3)
-                talk_gtts__(filename[numeros])
+                #talk_gtts__(filename[numeros])
+                speak(filename[numeros])
                 # talk__(filename[numeros])
                 # response = response.replace(name, '')
                 # response = response.strip()
@@ -67,6 +69,7 @@ def main():
                 print(response)
                 # talk__(ChatGPT.main_GPT(response))
                 talk_gtts__(ChatGPT.main_GPT(response))
+                speak(ChatGPT.main_GPT(response))
                 open_ = False
                 q.put_nowait(open_)
                 counter = 0
