@@ -10,11 +10,11 @@ import os
 import queue
 import random
 
-# from talk_ import talk__
+# from talk_ import talk_pytts__
 import speech_recognition as sr
+
 from chatGPT_ import *
 from gtts_ import talk_gtts__
-#from gtts__ import speak
 
 listener = sr.Recognizer()
 
@@ -56,9 +56,8 @@ def main():
                 open_ = True
                 q.put_nowait(open_)
                 numeros = random.randint(0, 3)
+                # talk_pytts__(filename[numeros])
                 talk_gtts__(filename[numeros])
-                #speak(filename[numeros])
-                # talk__(filename[numeros])
                 # response = response.replace(name, '')
                 # response = response.strip()
 
@@ -67,19 +66,20 @@ def main():
                 response = response.replace("cerrar", '')
                 response = response.strip()
                 os._exit(0)
-                
+
             elif "cancelar" in response and counter == 1:
                 response = response.replace("cancelar", '')
                 response = response.strip()
+                # talk_pytts__('ok')
                 talk_gtts__('ok')
                 counter = 0
                 open_ = False
                 q.put_nowait(open_)
             elif open_ == True:
                 print(response)
-                # talk__(ChatGPT.main_GPT(response))
+                # talk_pytts__(ChatGPT.main_GPT(response))
                 talk_gtts__(ChatGPT.main_GPT(response))
-                #speak(ChatGPT.main_GPT(response))
+
                 open_ = False
                 q.put_nowait(open_)
                 counter = 0
