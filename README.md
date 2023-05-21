@@ -4,7 +4,7 @@
 
 Este software emplea el micrófono de la laptop para reconocer cuando se habla. 
 
-Mientras no se pronuncien las palabras "Hola" o "chatGPT" el programa no se ejecutará y si se dice "cerrar" el programa se cierra.
+Mientras no se pronuncien las palabras "Hola" el programa no se ejecutará, en caso de arrempentirse se debe pronuciar "cancelar" y el programa no se ejetuará tampoco y si se dice "cerrar" el programa se cierra.
 
 ### ejemplo:
 
@@ -19,7 +19,7 @@ En esta etapa beta, el usuario no podrá mantener un hilo conversacional ni modi
 
 --------------------------------------------------------------------------------
 
-# Esta aplicacíon de PC está pensada para que personas con conocimientos básicos de informática puedan mantener una conversación oral con chatGPT3 y que sea de la forma más sencilla posible. 
+# Esta aplicacíon de PC está pensada para que personas con conocimientos básicos de informática puedan mantener una conversación oral con chatGPT y que sea de la forma más sencilla posible. 
 
 
 ## requisitos:
