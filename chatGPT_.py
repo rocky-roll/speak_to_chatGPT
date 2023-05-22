@@ -9,16 +9,13 @@
 import queue
 
 import openai
-from encrypt import key_decript
 
-# from talk_ import talk__
-# from gtts_ import talk_gtts__
+from encrypt import key_decript
 
 
 class ChatGPT:
     def login_openai():
         queue_ = queue.Queue()
-        # global queue_
         status_ = False
         try:
             key_decript_ = key_decript().decode('utf-8')
@@ -40,10 +37,6 @@ class ChatGPT:
                        "content": "Eres un asistente muy útil, eres de género femenino, das repuestas con un '30%' de ironía y con un '10%' de sarcasmo, con humor, breves."}  # No uses Emojis y cuando llegues a los 147 caracteres sin espacios tenes que poner un punto aparte."}
             messages = [context]
 
-            # if content == "nuevo":
-            #    messages = [context]
-            #    talk_gtts__("Nueva conversación creada. Te escucho ")
-
             messages.append({"role": "user", "content": content})
             response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
@@ -56,9 +49,8 @@ class ChatGPT:
 
             response_content = response.choices[0].message.content
             messages.append({"role": "assistant", "content": response_content})
-            # print(f"{response_content}")
-            # talk_gtts__(f"{response_content}")
-            # talk__(f"{response_content}")
+            print(f"{response_content}")
+
         except Exception as e:
             print(f"Hubo un error {e}")
             pass
