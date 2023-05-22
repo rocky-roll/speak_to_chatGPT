@@ -4,7 +4,7 @@
 
 Este software emplea el micrófono de la laptop para reconocer cuando se habla. 
 
-Mientras no se pronuncien las palabras "Hola" el programa no se ejecutará, en caso de arrempentirse se debe pronuciar "cancelar" y el programa no se ejetuará tampoco y si se dice "cerrar" el programa se cierra.
+Mientras no se pronuncien la palabra "Hola" el programa no se ejecutará, en caso de arrempentirse se debe pronuciar "cancelar" y el programa no se ejetuará tampoco y si se dice "cerrar" el programa se cierra.
 
 ### ejemplo:
 
@@ -13,11 +13,11 @@ Mientras no se pronuncien las palabras "Hola" el programa no se ejecutará, en c
     usuario -- "¿de que color era el caballo blanco del general San martín?
     chatGPT -- "El caballo blanco del General San Martín era... blanco. ¡La respuesta está en la pregunta! 😉"
     usuario -- "Hola"
-    chatGPT -- "Te escucho"
+    chatGPT -- "Dime"
     usuario -- "qué representa su sable corvo?"
     chatGPT -- "Mi sable curvo representa mi valentía y habilidad como asistente. También me da un aire de misterio y elegancia, como una guerrera lista para enfrentar cualquier obstáculo que se me presente. Pero en realidad, es solo decorativo y no tengo la habilidad de manejar un arma real."
     usuario -- "Hola"
-    chatGPT -- "Te escucho"
+    chatGPT -- "Si"
     usuario -- "¿qué representa el sable corvo del general san martín?"
     chatGPT -- "El sable corvo del General San Martín es un símbolo de la independencia de Argentina, Chile y Perú. Además, representa la valentía y el honor del general y su determinación en la lucha por la libertad de los pueblos sudamericanos. También se dice que era un arma muy efectiva en el campo de batalla debido a su diseño curvado, lo que le permitía realizar cortes más profundos. En resumen, el sable corvo es un ícono importante de la historia americana y un objeto de gran valor sentimental para los argentinos."
     usuario -- "Hola"
@@ -25,7 +25,7 @@ Mientras no se pronuncien las palabras "Hola" el programa no se ejecutará, en c
     usuario -- "cancelar"
     chatGPT -- "ok"
     usuario -- "cerrar"
-    chatGPT -- "..."
+    chatGPT -- Exit
 
 En esta etapa beta, el usuario no podrá mantener un hilo conversacional ni modificar las configuraciones que se le han hecho a chatGPT modelo gpt-3.5-turbo, por lo tanto esta AI dará respuestas con humor, algo irónicas y sarcásticas de forma tal que no parezca que un HAL9000 cualquiera.
 
