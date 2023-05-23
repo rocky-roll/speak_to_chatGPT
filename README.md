@@ -2,7 +2,7 @@
 
 ## Habla con ChatGPT
 
-Este software emplea el micrófono de la laptop para reconocer cuando se habla. 
+Este software emplea el micrófono de la laptop para reconocer cuando se habla.
 
 Mientras no se pronuncien la palabra "Hola" el programa no se ejecutará, en caso de arrempentirse se debe pronuciar "cancelar" y el programa no se ejetuará tampoco y si se dice "cerrar" el programa se cierra.
 
@@ -29,42 +29,42 @@ Mientras no se pronuncien la palabra "Hola" el programa no se ejecutará, en cas
 
 En esta etapa beta, el usuario no podrá mantener un hilo conversacional ni modificar las configuraciones que se le han hecho a chatGPT modelo gpt-3.5-turbo, por lo tanto esta AI dará respuestas con humor, algo irónicas y sarcásticas de forma tal que no parezca que un HAL9000 cualquiera.
 
+---
 
---------------------------------------------------------------------------------
-
-# Esta aplicacíon de PC está pensada para que personas con conocimientos básicos de informática puedan mantener una conversación oral con chatGPT y que sea de la forma más sencilla posible. 
-
+# Esta aplicacíon de PC está pensada para que personas con conocimientos básicos de informática puedan mantener una conversación oral con chatGPT y que sea de la forma más sencilla posible.
 
 ## requisitos:
 
 Este programa utiliza:
-* openai para conectarse con chatGPT, por lo que el usuario deberá registrarse en la página web de openai.com y obtener una api key 
-* Para el reconocimiento de voz se emplea SpeechRecognition con Google Speech Recognition. 
 
-Nota: para evitar complicaciones se recomienda ejecutar este programa en una laptop y no en una PC de escritorio ya que las primeras traen incorporado un micrófono que es necesario para que el programa pueda reconocer el audio. 
+- openai para conectarse con chatGPT, por lo que el usuario deberá registrarse en la página web de openai.com y obtener una api key
+- Para el reconocimiento de voz se emplea SpeechRecognition con Google Speech Recognition.
+
+Nota: para evitar complicaciones se recomienda ejecutar este programa en una laptop y no en una PC de escritorio ya que las primeras traen incorporado un micrófono que es necesario para que el programa pueda reconocer el audio.
 
 Gracias Google Speech Recognition este programa se puede correr en computadoras medianamente antiguas y / o de bajos recursos
 
-
         * Conexión a Internet: si
         * Micrófono activado y configurado: si
-        * Tener un API Key para poder conectarse con chatGPT: si 
+        * Tener un API Key para poder conectarse con chatGPT: si
 
---------------------------------------------------------------------------------
+---
 
 ## aclaraciones:
-* Debido a que chatGPT está limitado a expresarse en forma oral, solicitudes tales como que haga un script en python para hacer X cosa puede que tengan un resultado poco satisfactorio.
-* El tiempo que tarde chatGPT puede variar dependiendo de la velocidad de conexión, la saturación de pedidos que tenga que atender en ese momento la AI
-* Puede que la efectividad del reconocimiento de las palabras no sea del 100% ya que depende factores tales como: calidad del micrófono, el alcance del mismo, el ruido ambiente, como así también de la pronunciación del emisor, etc. 
-* Así mismo la primera vez que se ejecute puede que tarde un poco más de tiempo en reconocerla.
 
---------------------------------------------------------------------------------
+- Debido a que chatGPT está limitado a expresarse en forma oral, solicitudes tales como que haga un script en python para hacer X cosa puede que tengan un resultado poco satisfactorio.
+- El tiempo que tarde chatGPT puede variar dependiendo de la velocidad de conexión, la saturación de pedidos que tenga que atender en ese momento la AI
+- Puede que la efectividad del reconocimiento de las palabras no sea del 100% ya que depende factores tales como: calidad del micrófono, el alcance del mismo, el ruido ambiente, como así también de la pronunciación del emisor, etc.
+- Así mismo la primera vez que se ejecute puede que tarde un poco más de tiempo en reconocerla.
+
+---
 
 ## información técnica:
 
 Este programa está en fase beta y fue realizado íntegramente en el lenguaje de programación python3
 
 ## Librerías necesarias
+
         aiohttp==3.8.4
         aiosignal==1.3.1
         async-timeout==4.0.2
@@ -88,30 +88,35 @@ Este programa está en fase beta y fue realizado íntegramente en el lenguaje de
         tqdm==4.65.0
         urllib3==2.0.2
         yarl==1.9.2
+
 # Instalación:
-1. clonar el repositorio.
+
+1.  clonar el repositorio.
 
         git clone https://github.com/rocky-roll/speak_to_the_chatGPT
-        
-2. Instalar las librerias necesarias para ejecutar el programa.
+
+2.  Instalar las librerias necesarias para ejecutar el programa.
 
         cd speak_to_the_chatGPT
         python -m pip install -r requirements.txt
---------------------------------------------------------------------------------
+
+---
 
 # ¿cómo obtener la API Key para chatGPT?
+
 1. Realizar el proceso de registración en la página web de https://platform.openai.com/overview
 2. En el menú de usuario hacer clic en la opción"View API keys" https://platform.openai.com/account/api-keys
 3. Elegir la opción "+ Create new secret key" completar los pasos y crear la clave. Una vez creada esta dese ser copiada ya que luego el programa no dejará volver a consultarla.
 
---------------------------------------------------------------------------------
+---
 
-# Agregar la clave generada al programa 
+# Agregar la clave generada al programa
 
-1. ejecute el archivo assistant.py.
+1.  ejecute el archivo assistant.py.
 
         python assistant.py
-1. Una vez abierto el programa ir a la barra de menú y hacer clic "Archivo/chatGPT api key"
+
+1.  Una vez abierto el programa ir a la barra de menú y hacer clic "Archivo/chatGPT api key"
 
 ![chatGPT api key](https://i.postimg.cc/PxgzSF4G/2.png)
 
